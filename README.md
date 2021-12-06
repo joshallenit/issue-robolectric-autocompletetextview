@@ -2,6 +2,8 @@
 
 This example project has a simple test that clicks on the auto-complete dropdown of an AutoCompleteTextView
 
+Robolectric Issue #6912: [AutoCompleteTextView and Robolectric Limitations](https://github.com/robolectric/robolectric/issues/6912)
+
 ## Android Test
 
 - Works correctly
