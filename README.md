@@ -6,6 +6,7 @@ This example project has a simple test that clicks on the auto-complete dropdown
 
 - Works correctly
 
+```
 View after popup com.example.reproduce_robo_autocomplete/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity:
 window-focus:true
  DecorView { 1080×2220px }
@@ -32,7 +33,7 @@ window-focus:false
  ╰─PopupBackgroundView { 400×210px }
    ╰─DropDownListView { 378×176px, focused }
      ╰─TextView { id:text1, 378×176px, text-length:7 }
-
+```
 
 ## Test
 
@@ -40,6 +41,7 @@ Same code is copied to /test and ran as Robolectric
 
 - No popup is in the view hiearachy:
 
+```
 com.example.reproduce_robo_autocomplete/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity:
 window-focus:true
  DecorView { 320×470px }
@@ -59,7 +61,7 @@ window-focus:true
    │ │ ╰─ActionMenuView { 0×48px }
    │ ╰─ActionBarContextView { id:action_context_bar, GONE, 0×0px }
    ╰─ActionBarContainer { id:split_action_bar, GONE, 0×0px }
-
+```
 
 And the test fails:
 
