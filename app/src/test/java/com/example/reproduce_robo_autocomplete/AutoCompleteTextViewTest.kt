@@ -76,7 +76,7 @@ class AutoCompleteTextViewTest {
             val adapter = ArrayAdapter<String>(
                 requireContext(),
                 android.R.layout.simple_dropdown_item_1line,
-                arrayOf("@channel", "Belgium", "France", "Italy", "Germany", "Spain")
+                arrayOf("Belgium", "France", "Italy", "Germany", "Spain")
             )
             val textView = AutoCompleteTextView(context)
             textView.tag = VIEW_TAG
